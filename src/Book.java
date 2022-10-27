@@ -1,10 +1,10 @@
 public class Book {
     private String title;
     private int year;
-    private Object author;
+    private Author author;
 
-    public Book(int year, String title, Object Author) {
-        this.author = (Author) Author;
+    public Book(int year, String title, Author author) {
+        this.author = author;
         this.title = title;
         this.year = year;
     }
