@@ -10,6 +10,15 @@ public class Main {
         firstBook.setYear(1000);
         System.out.println("firstBook.getYear() = " + firstBook.getYear());
 
+        System.out.println("secondBook = " + secondBook);
+        System.out.println("secondAuthor = " + secondAuthor);
+        System.out.println("secondBook.equals(firstBook) = " + secondBook.equals(firstBook));
+        System.out.println("secondBook.equals(secondBook) = " + secondBook.equals(secondBook));
+        System.out.println("secondBook.getTitle().equals(firstBook.getTitle()) = " + secondBook.getTitle().equals(firstBook.getTitle()));
+        System.out.println("secondBook.getAuthor().equals(secondBook.getAuthor()) = " + secondBook.getAuthor().equals(secondBook.getAuthor()));
+        System.out.println("secondBook.getAuthor().equals(firstBook.getAuthor()) = " + secondBook.getAuthor().equals(firstBook.getAuthor()));
+
+
         Book[] arrayBook = new Book[7];
         arrayBook[0] = firstBook;
         arrayBook[1] = secondBook;
